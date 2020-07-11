@@ -1,0 +1,62 @@
+/* --------------- STRUCTURE DU HEADER -------------- */
+
+header {
+  position: absolute;
+  z-index: 3;
+  /* Sinon les liens ne répondent pas sur la 1ère page car masqués par le background (ensemble de ronds) qui s'y trouve.*/
+  grid-column: 1/13;
+  grid-row: 1/2;
+  background-color: transparent;
+
+  width: 1920px;
+  color: white;
+}
+
+div.entete {
+  margin-left: 136px;
+  margin-top: 54px;
+  height: 95px;
+  width: 332px;
+  float: left;
+}
+img.logo {
+  position: absolute;
+  margin: 0;
+  width: 95px;
+  height: 95px;
+}
+p.marque {
+  position: absolute;
+  font-size: 36px;
+  margin-left: 121px;
+  font-weight: lighter;
+}
+
+/* ----------------- MENU EN HAUT ------------------------ */
+ul.haut,
+li {
+  display: inline-block;
+  font-size: 28px;
+  margin-top: 0;
+  font-weight: 100;
+}
+ul.haut {
+  margin-left: 950px;
+}
+ul.haut > li {
+  text-decoration: none;
+  margin-top: 96px;
+  margin-right: 36px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+a:hover {
+  color: #4d5069;
+}

@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+
+    <title>Bienvenue chez Sirius</title>
+</head>
+<body>
+    <div class="logo">
+        <img alt="logo Sirius" class = "logo" src="sirius_logo.png"/>
+    </div>
+    <section class="main-section">
+        <div class="first-title-container">
+            <div class="title">
+                <h1>Semaine 5 | API (suite)</h1>
+            </div>
+        </div>
+        <div class="text-container-first">
+            <div class="text">
+                <span>
+                    <div id="container">
+                        <p id="quotes">pending...</p>
+                        <p id="author">pending...</p>
+
+                    </div>
+                    <p class="introduction">Salut à tous et Bienvenue pour cette nouvelle semaine au sein de la SiriusSchool. Vous trouverez les consignes dans le fichier script.js</p>
+                </span>
+          </div>
+
+          <!-- ---------- FORMULAIRE  ----------- -->
+          <div class="encodage">
+          <form id="my-form">
+            <h2>Formulaire d'encodage</h2>
+            <p class="champ">
+              <label for="auteur">Auteur :</label>
+              <br />
+              <input type="text" name="auteur" id="auteur" value="Saisir votre nom" />
+            </p>
+
+            <!--<p class="champ"></p>-->
+              <label for="comment">Commentaire :</label>
+              <br />
+              <textarea name="comment" id="comment" rows="5" cols="55">The following takes place between 10am and 11am on the day of the California Presidential Primary. Events Occur in Real Time.
+              </textarea>
+            </p>
+          </form>
+          <!--<p class="btn"></p>-->
+            <button id="submit-btn">ENVOYER</button>
+        </div>
+        <!-- -------------  AFFICHAGE --------------- -->
+        <!--
+        <div id="parent">
+          text : enfant
+        </div>-->
+
+          <!-- Balise fantôme ou CURRENT DIV qui sert de REPERE -->
+      <div id="balise"></div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

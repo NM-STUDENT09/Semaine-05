@@ -1,0 +1,121 @@
+/* --------------- STRUCTURE DU TEXTE --------------- */
+h1.comment {
+  position: absolute;
+  margin-top: 398px;
+  margin-left: 161px;
+  font-size: 72px;
+  font-weight: bolder;
+  color: white;
+}
+span {
+  color: #bc3a77;
+  font-size: 96px;
+}
+
+/* --- Style des éléments ajoutés dynamiquement --- */
+div {
+  margin: 0 auto;
+  width: 1900px;
+  font-size: 30px;
+}
+.auteur {
+  color: #bc3a77;
+  text-transform: uppercase;
+}
+.comment {
+  color: grey;
+  padding-bottom: 30px;
+}
+
+/* ------------- STRUCTURE DU FORMULAIRE ------------ */
+
+.content {
+  position: absolute;
+  width: 796px;
+  height: 734px;
+  margin-left: 965px;
+  margin-top: 173px;
+  border-radius: 22px;
+  background: #24242b;
+}
+
+form {
+  position: relative;
+  width: 796px;
+  height: 600px;
+  margin: 0;
+  border-radius: 22px;
+}
+
+p.form {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 75px;
+  width: 646px;
+  height: 526px;
+}
+
+/* -------------------------------- LES LABELS --- */
+label#auteur,
+label#comment {
+  position: absolute;
+  display: flex;
+  height: 28px;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+label#auteur {
+  width: 85px;
+}
+label#comment {
+  margin-top: 145px;
+}
+
+/* -------------------------------- LES CHAMPS --- */
+input#auteur,
+textarea#comment {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 22px;
+  border: 3px solid #bc3a77;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 12px;
+}
+input#auteur {
+  margin-top: 20px;
+  height: 70px;
+  width: 646px;
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+textarea {
+  width: 616px;
+  height: 233px;
+  margin-top: 165px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------ STRUCTURE DU BOUTON DU FORMULAIRE ------ */
+
+button#submit-btn {
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 20px;
+  height: 70px;
+  width: 646px;
+  color: white;
+  font-size: 30px;
+  border-radius: 22px;
+
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+  background-color: #1867a7;
+  border: 3px solid #1867a7;
+}

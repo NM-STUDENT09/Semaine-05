@@ -1,0 +1,158 @@
+/* -----------------------------------------------------
+            SEMAINE 05 - Landing Page
+            Sujet : FEEL THE MUSIC
+ ==================================================== */
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  /*font-family: Poppins;*/
+}
+/* -------------- STRUCTURE DU GRID ----------------- */
+.container {
+  z-index: 1;
+  margin: 30px auto;
+  width: 1920px;
+  height: 1080px;
+  background-color: #2f3038;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px 20px;
+}
+
+/* ----------- STRUCTURE DU BACKGROUND ------------ */
+.background {
+  position: absolute;
+  z-index: 2;
+  width: 1920px;
+  height: 1080px;
+}
+/*
+    Ronds de dimensions diverses :
+        1 = petit
+        2 = moyen
+        3 = grand
+    Dimensions et positions selon la maquette sur FIGMA
+*/
+
+/* Ronds de couleur BLEU */
+.rond_bleu_1,
+.rond_bleu_2,
+.rond_bleu_3 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(17, 136, 102, 0.2);
+}
+
+.rond_bleu_1 {
+  width: 128px;
+  height: 128px;
+  margin-left: 779px;
+  margin-top: 699px;
+}
+
+.rond_bleu_2 {
+  width: 217px;
+  height: 217px;
+  margin-left: 1219px;
+  margin-top: 125px;
+}
+
+.rond_bleu_3 {
+  width: 685px;
+  height: 685px;
+  margin-left: 1340px;
+  margin-top: 523px;
+}
+
+/* Ronds de couleur ROUGE */
+.rond_rouge_1,
+.rond_rouge_2,
+.rond_rouge_3 {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(188, 58, 80, 0.2);
+}
+
+.rond_rouge_1 {
+  width: 52px;
+  height: 52px;
+  margin-left: 1069px;
+  margin-top: 855px;
+}
+
+.rond_rouge_2 {
+  width: 217px;
+  height: 217px;
+  margin-left: 789px;
+  margin-top: -130px;
+}
+
+.rond_rouge_3 {
+  width: 410px;
+  height: 410px;
+  margin-left: 68px;
+  margin-top: 540px;
+}
+
+/* -------------- IMAGE -------------- */
+div.cover {
+  z-index: 3;
+  position: absolute;
+  margin-top: 231px;
+  margin-left: 140px;
+}
+/*
+img {
+  position: absolute;
+  width: 602px;
+  height: 849px;
+  padding-left: 140px;
+  padding-top: 231px;
+  margin: 0;
+}*/
+
+/* -------------- STRUCTURE DU TEXTE -------------- */
+.texte {
+  position: absolute;
+  z-index: 2;
+  width: 824px;
+  height: 355px;
+  margin-left: 967px;
+  margin-top: 338px;
+  color: white;
+}
+h1.index {
+  margin: 0;
+  font-size: 100px;
+  font-weight: lighter;
+}
+p.invit {
+  position: absolute;
+  font-size: 41px;
+  font-weight: lighter;
+  margin: 0;
+  margin-top: 24px;
+  /* margin-left: 5px; */
+  /* margin-top: 476px;
+  margin-left: 969px; */
+}
+#btn {
+  position: absolute;
+  margin-top: 148px;
+  margin-left: 5px;
+
+  width: 322px;
+  height: 77px;
+  font-size: 30px;
+
+  color: white;
+  background-color: #bc3a77;
+  border: 1px solid #bc3a77;
+
+  border-radius: 22px;
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}

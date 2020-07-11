@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sem 05 | LP(3) - Comments</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/comments.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- -------------- LOGO -------------- -->
+        <a href="index.html">
+          <div class="entete">
+            <img src="images/logo.png" alt="Logo de l'event" class="logo" />
+            <p class="marque">Soundwave</p>
+          </div>
+        </a>
+
+        <!-- ------------ MENU EN HAUT -------------- -->
+        <ul class="haut">
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="comments.html">Join</a></li>
+        </ul>
+      </header>
+
+      <!-- -------------- CONTENU -------------- -->
+      <h1 class="comment">
+        Join the
+        <span>fun.</span>
+      </h1>
+      <div class="content">
+        <!-- ------------ FORMULAIRE -------------- -->
+        <form id="my-form">
+          <p class="form">
+            <label id="auteur" for="name">Name :</label>
+            <br />
+            <input
+              name="auteur"
+              type="text"
+              id="auteur"
+              placeholder="Nom et prénom."
+            />
+
+            <label id="comment" for="name">Comment :</label>
+            <br />
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Votre commentaire ..."
+            ></textarea>
+          </p>
+        </form>
+        <button id="submit-btn">Comment</button>
+      </div>
+
+      <!-- -------------- MENU EN BAS -------------- -->
+      <footer>
+        <ul class="gauche">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="droite">
+          <li>
+            <img src="images/Twitter.svg" alt="picto Twitter" class="picto" />
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <img src="images/Facebook.svg" alt="picto Facebook" class="picto" />
+            <a href="#">
+              Facebook
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <div id="balise"></div>
+  </body>
+  <script src="script.js"></script>
+</html>

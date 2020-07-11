@@ -1,0 +1,64 @@
+/* --------------- STRUCTURE DU FOOTER -------------- */
+footer {
+  /* position: absolute;
+  width: 1920px;
+  height: 102px;
+  margin-left: 0px;
+  margin-top: 978px; */
+
+  grid-column: 1/13;
+  grid-row: 6/7;
+  height: 102px;
+  margin-top: 61.32px;
+
+  color: white;
+  background: #24242b;
+}
+ul.gauche,
+ul.droite,
+li {
+  display: inline-block;
+  font-size: 28px;
+}
+ul.gauche {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+ul.droite {
+  margin-left: 800px;
+  margin-right: 50px;
+}
+ul.gauche > li,
+ul.droite > li {
+  text-decoration: none;
+  margin-top: 0;
+}
+ul.gauche > li {
+  margin-left: 83px;
+}
+ul.droite > li {
+  padding: 0;
+  margin-left: 105px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: #4d5069;
+  /*color: #707497;*/
+  font-weight: bold;
+}
+
+img.picto {
+  position: absolute;
+  width: 27.9875px;
+  height: 33.585px;
+  margin-left: -40px;
+  /* margin-right: 20px; */
+  float: left;
+}

@@ -1,0 +1,118 @@
+/* --------------- STRUCTURE DU TEXTE --------------- */
+h1.feature {
+  position: absolute;
+  margin-top: 281.7px;
+  margin-left: 161px;
+  /* font-size: 72px; */
+  font-size: 80px;
+  font-weight: lighter;
+  color: white;
+}
+p.discover {
+  position: absolute;
+  width: 771px;
+  margin-top: 735px;
+  margin-left: 161px;
+  font-size: 34px;
+  font-weight: 100;
+  color: white;
+}
+/* --------------- PICTOS DE GAUCHE--------------- */
+div.pictos {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 460px;
+  width: 513px;
+  height: 170px;
+  color: white;
+  font-size: 24px;
+}
+#A,
+#B,
+#C {
+  position: absolute;
+  width: 133px;
+  height: 110px;
+  background-color: #24242b;
+  text-align: center;
+  padding: 30px 0;
+}
+#A {
+  margin-left: 0;
+}
+#B {
+  margin-left: 190px;
+}
+#C {
+  margin-left: 380px;
+}
+p.picto {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+/*---------------------DAMIER D'ALBUMS ----------------------- */
+/* --- SOLUTION 1 : Avec un TABLEAU  --- */
+table.albumTable {
+  position: absolute;
+  margin-left: 1128px;
+  margin-top: 273px;
+
+  /* width: 269.5px;
+  height: 269.5px; */
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+table.albumTable td,
+table.albumTable th {
+  padding: 0;
+}
+
+/* ----------------------------------------------------
+/* --- SOLUTION 2 : Avec des DIV --- */
+/*
+div.albums {
+  position: absolute;
+  width: 539px;
+  height: 539px;
+  margin-left: 1128px;
+  margin-top: 273px;
+  border: 1px solid red;
+}
+img#01,
+img#02,
+img#03,
+img#04 {
+  position: absolute;
+  width: 269.5px;
+  height: 269.5px;
+  float: left;
+}
+
+img#01 {
+  margin-left: 1128px;
+  margin-top: 273px;
+  float: left;
+}
+img#02 {
+  margin-left: 1397.5px;
+  margin-top: 273px;
+}
+img#03 {
+  margin-left: 1128px;
+  margin-top: 543px;
+  float: right;
+}
+
+img#04 {
+  margin-left: 1397.5px;
+  margin-top: 543px;
+}*/
+
+/*----- RMQ ----------------------------------------
+    Les images se sont disposées en une colonne,
+    solutions à tester:
+        - 2 div côte à côte.
+        - 4 div dont une pour chaque image.
+-------------------------------------------------- */
